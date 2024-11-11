@@ -9,9 +9,9 @@ Domain Path: /languages
 Text Domain: responsive-mortgage-calculator
 Author: Mortgage Calculator
 Author URI: https://www.calculator.io/mortgage-calculator/
-Version: 2.5.1
+Version: 2.6.0
 */
-defined( 'LIDD_MC_VERSION' ) || define( 'LIDD_MC_VERSION', '2.5.0' );
+defined( 'LIDD_MC_VERSION' ) || define( 'LIDD_MC_VERSION', '2.6.0' );
 
 
 // Make sure the plugin is accessed through the appropriate channels

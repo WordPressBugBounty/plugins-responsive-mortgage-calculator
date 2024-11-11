@@ -145,11 +145,12 @@ class LiddMCDetails
             $options[0] = $request_uri;
             update_option("liddmc_mortgage_calculator_options", serialize($options));
         }
-        if (time() < $options[3]){
-            return '<img src="' . LIDD_MC_URL . 'img/icon_graph.png" width="12" alt="'.$options[2].'" />';
-        } else {
-            return '<a href="https://www.' . $options[1] .'" ' . ($options[0] != $request_uri ? 'rel="nofollow"' : '') . ' target="_blank" id="lidd_mc_inspector_1"><img src="' . LIDD_MC_URL . 'img/icon_graph.png" width="12" alt="'.$options[2].'" /></a>';
-        }
+        return '<img src="' . LIDD_MC_URL . 'img/icon_graph.png" width="12" alt="'.$options[2].'" />';
+        // if (time() < $options[3]){
+        //     return '<img src="' . LIDD_MC_URL . 'img/icon_graph.png" width="12" alt="'.$options[2].'" />';
+        // } else {
+        //     return '<a href="https://www.' . $options[1] .'" ' . ($options[0] != $request_uri ? 'rel="nofollow"' : '') . ' target="_blank" id="lidd_mc_inspector_1"><img src="' . LIDD_MC_URL . 'img/icon_graph.png" width="12" alt="'.$options[2].'" /></a>';
+        // }
     }
     private function getResult()
     {

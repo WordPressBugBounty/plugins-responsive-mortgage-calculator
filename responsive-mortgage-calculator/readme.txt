@@ -2,8 +2,8 @@
 Tags: mortgage, mortgage calculator, loan, loan calculator, home loan
 Contributors: rmcalculator
 Requires at least: 3.0.1
-Tested up to: 6.5.5
-Stable tag: 2.5.1
+Tested up to: 6.7
+Stable tag: 2.6.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -110,6 +110,9 @@ This is a known issue. In the current version of the calculator, there can only 
 3. A longer summary of the mortgage details can be shown by changing appropriate setting.
 
 == Changelog ==
+
+= 2.6.0 =
+Tested with Wordpress 6.7
 
 = 2.5.1 =
 Fixed an issue.
